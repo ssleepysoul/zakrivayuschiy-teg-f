@@ -10,10 +10,10 @@
   --background-image: repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
                       repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
                       repeating-linear-gradient(to bottom, #e7e7e7, #1a1a1a);
-  --clamp-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);                 
-  --label-outline: #fff;    
+  --clamp-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);             
+  --label-outline: #fff;
   --button-text: #fff;
-  --heart-contour-color: #000;   
+  --heart-contour-color: #000;
   --heart-main-body-color: #FF0000;
 }
 

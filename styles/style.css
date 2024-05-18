@@ -337,7 +337,7 @@
 }
 
 .button__like {
-  font-family: 'PressStart2P';
+  font-family: var(--accent-font);
   font-size: 14px;
   line-height: 12px;
   background-color: var(--background-color);
@@ -394,7 +394,7 @@
   margin-top: 70.5px;
   background-color: var(--background-color);
   padding: 15px 21px 15px 19px;
-  font-family: 'PressStart2P';
+  font-family: var(--accent-font);
   font-size: 14px;
   line-height: 12px;
   transition: box-shadow 0.3s;

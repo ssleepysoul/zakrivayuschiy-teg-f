@@ -15,7 +15,7 @@
                       repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
                       repeating-linear-gradient(to bottom, #e7e7e7, #1a1a1a);
   --button-text: #fff;
-  --heart-contour-color: #000; 
+  --heart-contour-color: #000;
 }
 
 @media (prefers-color-scheme: light) {
