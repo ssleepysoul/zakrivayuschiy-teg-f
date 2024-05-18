@@ -1,1 +1,1 @@
-https://github.com/ssleepysoul/slozhno-sosredotochitsya
+https://github.com/ssleepysoul/zakrivayuschiy-teg-f
