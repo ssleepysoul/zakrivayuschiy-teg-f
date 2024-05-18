@@ -4,3 +4,61 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+
+:root.theme-light {
+  --font-weight-title: 700;
+  --font-weight-content: 400;
+  --background-color: #fff;
+  --font-color: #000;
+  --background-image: repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+                      repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+                      repeating-linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+  --button-text: #fff;  
+  --heart-contour-color: #000;  
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --font-weight-title: 700;
+    --font-weight-content: 400;
+    --background-color: #fff;
+    --font-color: #000;
+    --background-image: repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+                        repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+                        repeating-linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+    --button-text: #fff;  
+    --heart-contour-color: #000;  
+  }
+}
+
+:root.theme-dark {
+  --font-weight-title: 785;
+  --font-weight-content: 465;
+  --background-color: #000;
+  --font-color: #00CC14;
+  --background-image: repeating-linear-gradient(to right, #000 0, #000 2px, transparent 2px, transparent 4px),
+                      repeating-linear-gradient(to bottom, #000 0, #000 2px, transparent 2px, transparent 4px),
+                      repeating-linear-gradient(to bottom, #007f0c, #004306);
+  --button-text: #00CC14; 
+  --heart-contour-color: #00CC14;  
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --font-weight-title: 785;
+    --font-weight-content: 465;
+    --background-color: #000;
+    --font-color: #00CC14;
+    --background-image: repeating-linear-gradient(to right, #000 0, #000 2px, transparent 2px, transparent 4px),
+                        repeating-linear-gradient(to bottom, #000 0, #000 2px, transparent 2px, transparent 4px),
+                        repeating-linear-gradient(to bottom, #007f0c, #004306);
+    --button-text: #00CC14; 
+    --heart-contour-color: #00CC14;  
+  }
+}
+/* Фритрек и нулевой спринт: Подготовка к работе */
+/* Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И, возможно, подумать, как новые знания могут повлиять на ваше будущее. */
+
+
+
