@@ -14,8 +14,8 @@
   --background-image: repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
                       repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
                       repeating-linear-gradient(to bottom, #e7e7e7, #1a1a1a);
-  --button-text: #fff;  
-  --heart-contour-color: #000;  
+  --button-text: #fff;
+  --heart-contour-color: #000; 
 }
 
 @media (prefers-color-scheme: light) {
@@ -27,8 +27,8 @@
     --background-image: repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
                         repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
                         repeating-linear-gradient(to bottom, #e7e7e7, #1a1a1a);
-    --button-text: #fff;  
-    --heart-contour-color: #000;  
+    --button-text: #fff;
+    --heart-contour-color: #000;
   }
 }
 
@@ -40,8 +40,8 @@
   --background-image: repeating-linear-gradient(to right, #000 0, #000 2px, transparent 2px, transparent 4px),
                       repeating-linear-gradient(to bottom, #000 0, #000 2px, transparent 2px, transparent 4px),
                       repeating-linear-gradient(to bottom, #007f0c, #004306);
-  --button-text: #00CC14; 
-  --heart-contour-color: #00CC14;  
+  --button-text: #00CC14;
+  --heart-contour-color: #00CC14;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -53,8 +53,8 @@
     --background-image: repeating-linear-gradient(to right, #000 0, #000 2px, transparent 2px, transparent 4px),
                         repeating-linear-gradient(to bottom, #000 0, #000 2px, transparent 2px, transparent 4px),
                         repeating-linear-gradient(to bottom, #007f0c, #004306);
-    --button-text: #00CC14; 
-    --heart-contour-color: #00CC14;  
+    --button-text: #00CC14;
+    --heart-contour-color: #00CC14;
   }
 }
 /* Фритрек и нулевой спринт: Подготовка к работе */

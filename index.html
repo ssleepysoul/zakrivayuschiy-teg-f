@@ -333,28 +333,30 @@
       <button class="button button__save" type="button" 
       onclick="window['dialog-id'].showModal()" 
       aria-controls="dialog-id">
-        <div class="floppy-icon">
+        <span class="floppy-icon">
           <svg viewBox="0 0 39 39">
-            <use href="svg/floppy.svg#floppy" class="color">
+            <use href="svg/floppy.svg#floppy" class="color" />
           </svg>
-        </div>
+        </span>
         <span class="button__text">
           Сохранить на память
         </span>
       </button>
     </footer>
     <dialog id="dialog-id" class="modal">
-      <div class="modal__title">
-        <div class="floppy-icon">
-          <svg viewBox="0 0 39 39">
-            <use href="svg/floppy.svg#floppy" class="color">
-          </svg>
+      <form method="dialog">
+        <div class="modal__title">
+          <div class="floppy-icon">
+            <svg viewBox="0 0 39 39">
+              <use href="svg/floppy.svg#floppy" class="color" />
+            </svg>
+          </div>
+          <p>Вставьте дискету,&nbsp;чтобы продолжить</p>
         </div>
-        <p>Вставьте дискету,&nbsp;чтобы продолжить</p>
-      </div>
-      <button class="button modal__button type="button" 
-      onclick="window['dialog-id'].close()" 
-      aria-controls="dialog-id">ок</button>
+        <button class="button modal__button" type="submit" 
+        onclick="window['dialog-id'].close()" 
+        aria-controls="dialog-id">ок</button>
+      </form>
     </dialog>
     <script src="./scripts/like.js"></script>
   </body>

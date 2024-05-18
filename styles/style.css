@@ -46,6 +46,7 @@
 .header__title {
   text-transform: uppercase;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  font-variation-settings: var(--font-weight-title);
 }
 
 .header__subtitle {
@@ -163,7 +164,7 @@
   font-size: 18px;
   line-height: 25px;
   padding: 3px 24px 3px 10px;
-  border-bottom: 2px solid var(--font-color); 
+  border-bottom: 2px solid var(--font-color);
 }
 
 .card__image-container {
@@ -191,7 +192,7 @@
   text-shadow: 1px 0px var(--label-outline), -1px 0px var(--label-outline), 0px 1px var(--label-outline), 0px -1px var(--label-outline);
 }
 
-@supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)){
+@supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
   .card__image-label {
     -webkit-text-stroke: 1px var(--label-outline);
         text-stroke: 1px var(--label-outline);
