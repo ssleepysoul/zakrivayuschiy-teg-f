@@ -185,7 +185,7 @@
   text-shadow: 1px 0px var(--label-outline), -1px 0px var(--label-outline), 0px 1px var(--label-outline), 0px -1px var(--label-outline);
 }
 
-@supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
+@supports ((text-stroke: 1px var(--background-color)) or (-webkit-text-stroke: 1px var(--background-color))) {
   .card__image-label {
     -webkit-text-stroke: 1px var(--label-outline);
         text-stroke: 1px var(--label-outline);
@@ -253,12 +253,12 @@
   padding: 15px 21px 15px 19px;
 }
 
-.button:focus-visible, .modal__button:focus-visible {
+.button:focus-visible {
   outline: none;
   box-shadow: 2px 2px 0;
 }
 
-.button::after, .modal__button:after {
+.button::after {
   content: "";
   background-color: var(--font-color);
   position: absolute;
@@ -271,7 +271,7 @@
   animation-timing-function: ease-in-out;
 }
 
-.button:hover::after, .modal__button:hover:after {
+.button:hover::after {
   transform: translateX(0);
 }
 
