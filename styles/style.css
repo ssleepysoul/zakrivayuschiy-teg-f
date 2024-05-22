@@ -159,6 +159,7 @@
   line-height: 25px;
   padding: 3px 24px 3px 10px;
   border-bottom: 2px solid var(--font-color);
+  font-weight: var(--font-weight-title);
 }
 
 .card__image-container {
@@ -327,7 +328,7 @@
 /* dialog starts */
 
 .modal {
-  position: absolute;
+  position: fixed;
   border: 2px solid var(--font-color);
   font-family: var(--accent-font), fantasy, sans-serif;
   font-size: 14px;
@@ -341,13 +342,6 @@
 
 dialog::backdrop {
   background-color: rgb(0 0 0 / 0.75);
-}
-
-.modal[open] {
-  left: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-left: calc(-353px / 2);
 }
 
 .modal__title {
