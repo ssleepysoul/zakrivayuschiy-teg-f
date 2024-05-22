@@ -159,7 +159,7 @@
   line-height: 25px;
   padding: 3px 24px 3px 10px;
   border-bottom: 2px solid var(--font-color);
-  font-weight: var(--font-weight-title);
+  font-variation-settings: "wght" var(--font-weight-title);
 }
 
 .card__image-container {
